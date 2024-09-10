@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+:root{
+  --color:#5f6368;
+  --bgColor:#f1f3f4
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color);
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  overflow-y: overlay;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+input,select{
+  border: none;
+  outline: none;
+}
